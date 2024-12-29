@@ -17,7 +17,7 @@ export const mainSection = [
   {
     id: 1,
     title: "about",
-    desc: "Established to become a leading organization specializing in providing human resources services, business development solutions, and other essential services. Our team consists of a distinguished group of young experts and consultants who bring together diverse experiences, making us one of the most competent, flexible, and highly experienced companies in the field.",
+    desc: " Established to become a leading organization specializing in providing human resources services, business development solutions, and other essential services. Our team consists of a distinguished group of young experts and consultants who bring together diverse experiences, making us one of the most competent, flexible, and highly experienced companies in the field.",
     secDir: "right",
     image: aboutImg,
   },
@@ -163,8 +163,14 @@ export const dataTestimonials = [
   },
   {
     id: 5,
-    image: AVAT2,
+    image: AVAT3,
     name: "Vertex School",
     review: 'Worked with ZAHER to restructure the management hierarchy in my company. Honestly, it was an outstanding experience! I noticed a significant improvement in performance and organization after collaborating with them. The team is incredibly respectful and attentive to client needs.',
+  },
+  {
+    id: 6,
+    image: AVAT2,
+    name: "Phileo Pharma",
+    review: 'The services provided by ZAHER are truly outstanding! Their team is incredibly professional and showcases deep expertise in their field. From start to finish, they offered personalized solutions that perfectly matched my needs, saving me both time and effort. I can confidently say they’re not just a service provider but a real partner in achieving success. Highly recommended!',
   },
 ]

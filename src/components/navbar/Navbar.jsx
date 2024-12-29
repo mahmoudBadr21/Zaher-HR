@@ -23,11 +23,11 @@ const Navbar = () => {
         <div className="links" style={getMenuStyle(menuOpen)} onClick={() => setMenuOpen(false)}>
           <i className="fa-solid fa-close closeMenu"></i>
           <ul className='flexCenterSpace'>
-            <li><a href='#about'>About</a></li>
-            <li><a href='#vision'>Vision</a></li>
-            <li><a href='#mission'>Mission</a></li>
-            <li><a href='#values'>Values</a></li>
-            <li><a href='#services'>Services</a></li>
+            <li><Link to='/#about'>About</Link></li>
+            <li><Link to='/#vision'>Vision</Link></li>
+            <li><Link to='/#mission'>Mission</Link></li>
+            <li><Link to='/#values'>Values</Link></li>
+            <li><Link to='/#services'>Services</Link></li>
           </ul>
         </div>
       </div>

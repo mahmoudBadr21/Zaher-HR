@@ -4,6 +4,7 @@
   background-image: linear-gradient(#00000090, #0000009c), url(../../assets/summay.png);
   background-size: cover;
   background-position-Y: 60px;
+  background-position-x: right;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,9 +26,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 100vh;
   gap: 25px;
-  padding: 40px 0;
+  padding-top: 110px;
 }
 .home .container .sections .sectionText,
 .home .container .sections .sectionImage {
@@ -82,7 +82,7 @@
 /* services */
 .services {
   min-height: 100vh;
-  padding: 40px 0;
+  padding-top: 100px;
 }
 .services .mainTitle {
   position: relative;
