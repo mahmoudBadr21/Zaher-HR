@@ -43,6 +43,8 @@ const Footer = () => {
           <div className="icons">
             <a href="https://www.facebook.com/profile.php?id=61570315196385" target='_blank'><i className="fab fa-facebook"></i></a>
             <a href="https://www.linkedin.com/company/zaher-hr/posts?lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3By0tLxCwQSHyUDT1aGTL%2FTw%3D%3D" target='_blank'><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/zaher_eg/profilecard/?igsh=MWx6c3UwZnZsN3Rodw==" target='_blank'><i className="fab fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=+201092406581" target='_blank'><i className="fab fa-whatsapp"></i></a>
           </div>
         </div>
       </div>
