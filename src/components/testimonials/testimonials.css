@@ -1,0 +1,72 @@
+.testimonials {
+  margin-bottom: 90px;
+  margin-top: 30px;
+}
+.testimonials .testimonialsContainer {
+  width: 50%;
+  margin: 0 auto;
+}
+.testimonial {
+  background: #f7f7f7f2;
+  text-align: center;
+  padding: 45px 30px;
+  border-radius: 20px;
+  user-select: none;
+}
+.testimonial .clientAvatar {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 4px solid var(--main-color);
+  width: 75px;
+  height: 75px;
+}
+.testimonial .clientAvatar img {
+width: 100%;
+height: 100%;
+}
+.testimonial .clientName {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 15px;
+}
+.testimonial .clientReview {
+  color: var(--text-color);
+  font-weight: 400;
+  display: block;
+  width: 80%;
+  margin: 15px auto 0;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: var(--main-color);
+}
+ul.slick-dots {
+  bottom: -35px;
+}
+.slick-slider.slick-initialized ul li button::before {
+  font-size: 10px !important;
+  color: var(--main-color);
+}
+/* ============ MEDIA QURIES (MEDUIM DEVICES)================ */
+@media screen and (max-width: 1024px) {
+  .testimonials .testimonialsContainer {
+    width: 70%;
+  }
+}
+
+/* ============ MEDIA QURIES (SMOLL DEVICES)================ */
+@media screen and (max-width: 600px) {
+  .testimonials .testimonialsContainer {
+    width: 90%;
+  }
+  .clientReview {
+    width: 90%;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+}

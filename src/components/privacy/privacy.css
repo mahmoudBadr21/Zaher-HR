@@ -1,0 +1,73 @@
+.privacy,
+.trems {
+  padding-top: 130px;
+  width: 70%;
+  color: var(--text-color);
+  font-size: 18px;
+}
+.privacy .marBottom,
+.trems .marBottom {
+  margin-bottom: 15px;
+}
+.privacy span {
+  display: block;
+}
+.privacy .mainColor {
+  color: var(--main-color);
+  display: inline;
+  font-weight: 500;
+}
+.privacy .mainTitle,
+.trems .mainTitle {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto 45px;
+}
+.privacy .mainTitle::before,
+.privacy .mainTitle::after,
+.trems .mainTitle::before,
+.trems .mainTitle::after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 48px;
+  bottom: -6px;
+  background-color: var(--main-color);
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+.privacy .mainTitle:hover::before,
+.privacy .mainTitle:hover::after,
+.trems .mainTitle:hover::before,
+.trems .mainTitle:hover::after {
+  width: 50%;
+}
+.privacy .mainPrivacy,
+.trems .mainPrivacy {
+  margin-bottom: 40px;
+}
+.privacy .content,
+.trems .content {
+  margin-bottom: 30px;
+}
+.privacy .content .title,
+.trems .content .title {
+  color: var(--main-color);
+  margin-bottom: 5px;
+}
+.privacy .content .text,
+.trems .content .text {
+  padding-left: 15px;
+}
+@media(max-width: 900px) {
+  .privacy,
+  .trems {
+    width: 85%;
+  }
+}
+@media(max-width: 569px) {
+  .trems .mainTitle {
+    font-size: 24px;
+  }
+}
