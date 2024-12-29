@@ -47,16 +47,16 @@ const Home = () => {
                 dataServices.map((servic) => {
                   return(
                     <div className="box" key={servic.id}>
-                      <div className="image">
-                        <img src={servic.image} alt="#" />
-                      </div>
+                      <Link to={`/service/${servic.id}`} className='mainLink'>
+                        <div className="image">
+                          <img src={servic.image} alt="#" />
+                        </div>
 
-                      <div className="text">
-                        <Link to={`/service/${servic.id}`}>
+                        <div className="text">
                           <span className="titleBg">{servic.title}</span>
                           <p className="serviceDesc">{servic.minDesc}</p>
-                        </Link>
-                      </div>
+                        </div>
+                      </Link>
                     </div>
                   )
                 })
